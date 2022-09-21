@@ -19,4 +19,8 @@ public class LoginController {
     public ResponseResult login(@RequestBody User user){
        return service.login(user);
     }
+    @GetMapping("/user/logout")
+    public ResponseResult logout(){
+        return service.logout();
+    }
 }

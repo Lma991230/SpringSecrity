@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a5c004-ed18-4f93-9a8f-a00e9dad1198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exampl/Controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exampl/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/impl/LoginServiceImpl.java" afterDir="false" />
+    <list default="true" id="01a5c004-ed18-4f93-9a8f-a00e9dad1198" name="Changes" comment="代码更新">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/Controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/impl/LoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/utils/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/exampl/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exampl/MapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/exampl/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampl/config/SecurityConfig.class" afterDir="false" />
@@ -31,6 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -56,6 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringSecuritySign" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.10693877" />
     <property name="project.structure.side.proportion" value="0.32818183" />
@@ -65,7 +74,7 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.JwtUtil">
+  <component name="RunManager" selected="Spring Boot.TokenApplication">
     <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.exampl.utils.JwtUtil" />
       <module name="SingleSignToken" />
@@ -126,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JwtUtil" />
         <item itemvalue="Spring Boot.TokenApplication" />
         <item itemvalue="JUnit.MapperTest.testPassword" />
+        <item itemvalue="Application.JwtUtil" />
         <item itemvalue="JUnit.MapperTest.test" />
       </list>
     </recent_temporary>
@@ -144,6 +153,7 @@
       <workItem from="1663659691255" duration="50000" />
       <workItem from="1663659825732" duration="70000" />
       <workItem from="1663659942492" duration="16224000" />
+      <workItem from="1663725435506" duration="17381000" />
     </task>
     <servers />
   </component>

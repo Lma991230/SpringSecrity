@@ -1,7 +1,14 @@
 package com.exampl.filter;
 
+import com.exampl.domain.LoginUser;
 import com.exampl.utils.JwtUtil;
+import com.exampl.utils.RedisCache;
 import io.jsonwebtoken.Claims;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
@@ -10,8 +17,14 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Objects;
 
+@Component
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
+
+    @Autowired
+    private RedisCache redisCache;
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         //获取token
@@ -25,13 +38,23 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
         String userId="";
         try {
             Claims claims = JwtUtil.parseJWT(token);
-                userId = claims.getId();
+                userId = claims.getSubject();
         } catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException("token非法");
         }
         //获取完整的用户信息
         String redisKey="login"+userId;
+        LoginUser loginUser = redisCache.getCacheObject(redisKey);
+        if (Objects.isNull(loginUser)){
+            throw new RuntimeException("用户未登录");
+        }
         //存入
+        //TODO 获取信息封装到Authentication中
+        UsernamePasswordAuthenticationToken authenticationToken=new UsernamePasswordAuthenticationToken(loginUser,
+                null,null);
+        SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+
+        filterChain.doFilter(request,response);
     }
 }
