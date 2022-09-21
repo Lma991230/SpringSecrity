@@ -2,6 +2,7 @@ package com.exampl;
 
 import com.exampl.domain.User;
 import com.exampl.mapper.UserMapper;
+import com.exampl.utils.JwtUtil;
 import com.sun.javaws.IconUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,8 +27,8 @@ public class MapperTest {
     public void testPassword(){
         BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
 //        String encode = bCryptPasswordEncoder.encode("1234");
-        String encode1 = bCryptPasswordEncoder.encode("123456");
-        System.out.println(encode1);
+//        String encode1 = bCryptPasswordEncoder.encode("123456");
+//        System.out.println(encode1);
 //        System.out.println(encode+"---"+encode1);
 //        boolean b = bCryptPasswordEncoder.matches("1234", "$2a$10$gGyny3Hy0roE9CyEZMRT2egr6FDqucDOdu" +
 //                "/duWSCv0K0iRlAxNxXG");

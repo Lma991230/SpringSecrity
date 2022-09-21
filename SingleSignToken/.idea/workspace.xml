@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01a5c004-ed18-4f93-9a8f-a00e9dad1198" name="Changes" comment="" />
+    <list default="true" id="01a5c004-ed18-4f93-9a8f-a00e9dad1198" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exampl/Controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exampl/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/utils/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exampl/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exampl/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exampl/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampl/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exampl/utils/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampl/utils/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exampl/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/exampl/MapperTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +24,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,6 +42,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2F1Vg050kzaUgbTT4frEj9T3TKP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
@@ -111,8 +127,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.JwtUtil" />
-        <item itemvalue="JUnit.MapperTest.testPassword" />
         <item itemvalue="Spring Boot.TokenApplication" />
+        <item itemvalue="JUnit.MapperTest.testPassword" />
         <item itemvalue="JUnit.MapperTest.test" />
       </list>
     </recent_temporary>
@@ -127,7 +143,7 @@
       <updated>1663659689865</updated>
       <workItem from="1663659691255" duration="50000" />
       <workItem from="1663659825732" duration="70000" />
-      <workItem from="1663659942492" duration="7587000" />
+      <workItem from="1663659942492" duration="16224000" />
     </task>
     <servers />
   </component>

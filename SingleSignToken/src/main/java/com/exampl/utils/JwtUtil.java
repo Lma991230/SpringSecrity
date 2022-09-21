@@ -80,10 +80,10 @@ public class JwtUtil {
 
     public static void main(String[] args) throws Exception {
         String jwt = createJWT("lma");
-        Claims claims = parseJWT("eyJhbGciOiJIUzI1NiJ9" +
-                ".eyJqdGkiOiIyNWI0YzM4NzdmNjU0MGRlODQ2MTAzZmIyYmJkZmIwYyIsInN1YiI6ImxtYSIsImlzcyI6InNnIiwiaWF0IjoxNjYzNjY3NzM2LCJleHAiOjE2NjM2NzEzMzZ9.0jxY0miWwAMTTiRrg9uEGRGafOdtixbiJHsLcwhNWDI");
+        Claims claims = parseJWT("eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI0MmNlMTIyNGQyNjU0NmQ0OTIwMjBkZDJhMjg0ZWVlYSIsInN1YiI6IjIiLCJpc3MiOiJzZyIsImlhdCI6MTY2MzY4MDI5MCwiZXhwIjoxNjYzNjgzODkwfQ.1J-Ds5jF_WqFaZprUugIW-IpOw71_dYq2T9KSJfQqD4");
         String subject = claims.getSubject();
         System.out.println(subject);
+
 
 
     }
@@ -102,7 +102,7 @@ public class JwtUtil {
      * 解析
      *
      * @param jwt
-     * @return
+     * @returd
      * @throws Exception
      */
     public static Claims parseJWT(String jwt) throws Exception {
