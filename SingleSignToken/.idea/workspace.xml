@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01a5c004-ed18-4f93-9a8f-a00e9dad1198" name="Changes" comment="代码更新">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/Controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/Controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/Controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/domain/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/domain/LoginUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/utils/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/exampl/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exampl/MapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exampl/service/impl/UserServiceDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exampl/service/impl/UserServiceDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exampl/Controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampl/Controller/HelloController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/exampl/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampl/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exampl/utils/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampl/utils/JwtUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exampl/MapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/exampl/MapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exampl/domain/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampl/domain/LoginUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exampl/service/impl/UserServiceDetailsImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exampl/service/impl/UserServiceDetailsImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,11 +153,23 @@
       <workItem from="1663659691255" duration="50000" />
       <workItem from="1663659825732" duration="70000" />
       <workItem from="1663659942492" duration="16224000" />
-      <workItem from="1663725435506" duration="17381000" />
+      <workItem from="1663725435506" duration="27112000" />
+      <workItem from="1663813274412" duration="960000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exampl/filter/JwtAuthenticationTokenFilter.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
